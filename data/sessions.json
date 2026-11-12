@@ -1,0 +1,2594 @@
+[
+ {
+  "id": "524",
+  "number": "NANO01",
+  "title": "Alzheimer's Disease Therapeutic Strategies: Amyloid, Tau, and Metabolism",
+  "type": "Nanosymposium",
+  "date": "2026-11-14",
+  "start": "2026-11-14T13:00:00-05:00",
+  "end": "2026-11-14T15:15:00-05:00",
+  "location": "WCC Rm 145",
+  "description": "",
+  "curated_topics": [
+   "Alzheimer’s Disease"
+  ],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "10",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/524",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "18841"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1991",
+  "number": "NANO04",
+  "title": "Neural and Physiological Mechanisms of Motivation: Fatigue, Apathy, and Reward-Based Decision-Making",
+  "type": "Nanosymposium",
+  "date": "2026-11-14",
+  "start": "2026-11-14T13:00:00-05:00",
+  "end": "2026-11-14T14:45:00-05:00",
+  "location": "WCC Rm 144",
+  "description": "",
+  "curated_topics": [
+   "Behavioral Neuroscience",
+   "Reinforcement Learning"
+  ],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "8",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1991",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "26641"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "893",
+  "number": "PSTR007",
+  "title": "Network Interactions: Other",
+  "type": "Poster",
+  "date": "2026-11-14",
+  "start": "2026-11-14T13:00:00-05:00",
+  "end": "2026-11-14T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "25",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/893",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "20796"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1226",
+  "number": "PSTR023",
+  "title": "Gastrointestinal and Urinary Regulation",
+  "type": "Poster",
+  "date": "2026-11-14",
+  "start": "2026-11-14T13:00:00-05:00",
+  "end": "2026-11-14T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Brain Body Interactions"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "10",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1226",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "23930"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1393",
+  "number": "PSTR029",
+  "title": "Central and Prefrontal Mechanisms of Working Memory in Humans and Animals",
+  "type": "Poster",
+  "date": "2026-11-14",
+  "start": "2026-11-14T13:00:00-05:00",
+  "end": "2026-11-14T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Executive Function"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "23",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1393",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "30605"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1430",
+  "number": "PSTR033",
+  "title": "Hippocampal: Entorhinal Cortex",
+  "type": "Poster",
+  "date": "2026-11-14",
+  "start": "2026-11-14T13:00:00-05:00",
+  "end": "2026-11-14T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Behavioral Neuroscience",
+   "Spatial Learning and Memory"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "26",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1430",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "25499"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2190",
+  "number": "LBP002",
+  "title": "C.02. Alzheimer's Disease and Other Dementias",
+  "type": "Late-Breaking Poster",
+  "date": "2026-11-15",
+  "start": "2026-11-15T08:00:00-05:00",
+  "end": "2026-11-15T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Late-Breaking Poster",
+  "objectives": [],
+  "presentation_count": "105",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2190",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "33886",
+   "33890",
+   "33920"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "438",
+  "number": "NANO06",
+  "title": "Emerging Approaches to Study Human Development and Disease In Vitro",
+  "type": "Nanosymposium",
+  "date": "2026-11-15",
+  "start": "2026-11-15T08:00:00-05:00",
+  "end": "2026-11-15T10:30:00-05:00",
+  "location": "WCC Rm 146C",
+  "description": "",
+  "curated_topics": [
+   "Development"
+  ],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "11",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/438",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "33585",
+   "33588"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "489",
+  "number": "NANO07",
+  "title": "Glial Mechanisms of Synaptic and Circuit Function",
+  "type": "Nanosymposium",
+  "date": "2026-11-15",
+  "start": "2026-11-15T08:00:00-05:00",
+  "end": "2026-11-15T11:30:00-05:00",
+  "location": "WCC Rm 144",
+  "description": "",
+  "curated_topics": [
+   "Glia",
+   "Synapses and Plasticity"
+  ],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "14",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/489",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "32246"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "566",
+  "number": "NANO09",
+  "title": "Stroke: Mechanisms of Abnormal Function and Neurorestorative Strategies",
+  "type": "Nanosymposium",
+  "date": "2026-11-15",
+  "start": "2026-11-15T08:00:00-05:00",
+  "end": "2026-11-15T10:15:00-05:00",
+  "location": "WCC Rm 140",
+  "description": "",
+  "curated_topics": [
+   "Brain and Spinal Cord Injury"
+  ],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "10",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/566",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "19116"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "920",
+  "number": "PSTR047",
+  "title": "Behavior and Cognitive Disorders Across Aging",
+  "type": "Poster",
+  "date": "2026-11-15",
+  "start": "2026-11-15T08:00:00-05:00",
+  "end": "2026-11-15T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Executive Function"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "27",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/920",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "29857"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1014",
+  "number": "PSTR053",
+  "title": "Brain Injury: Animal Models: Mechanisms",
+  "type": "Poster",
+  "date": "2026-11-15",
+  "start": "2026-11-15T08:00:00-05:00",
+  "end": "2026-11-15T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Brain and Spinal Cord Injury"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "24",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1014",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "22109"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1052",
+  "number": "PSTR056",
+  "title": "Pain: Peripheral Mechanisms",
+  "type": "Poster",
+  "date": "2026-11-15",
+  "start": "2026-11-15T08:00:00-05:00",
+  "end": "2026-11-15T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Pain and Itch"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "28",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1052",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "22352"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1224",
+  "number": "PSTR067",
+  "title": "Functional Imaging and Brain Connectivity",
+  "type": "Poster",
+  "date": "2026-11-15",
+  "start": "2026-11-15T08:00:00-05:00",
+  "end": "2026-11-15T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "19",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1224",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "23897",
+   "23903"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1229",
+  "number": "PSTR068",
+  "title": "Biological Clocks and Rhythms",
+  "type": "Poster",
+  "date": "2026-11-15",
+  "start": "2026-11-15T08:00:00-05:00",
+  "end": "2026-11-15T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Sleep"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "24",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1229",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "23953"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1364",
+  "number": "PSTR073",
+  "title": "Orbitofrontal, Corticolimbic Circuits, and Decision-Making",
+  "type": "Poster",
+  "date": "2026-11-15",
+  "start": "2026-11-15T08:00:00-05:00",
+  "end": "2026-11-15T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Behavioral Neuroscience",
+   "Decision Making"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "13",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1364",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "25010"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "326",
+  "number": "LEC07",
+  "title": "Clinical Neuroscience Lecture: Mending the Mind: From Single Neurons to Memory Neuroprosthetics — Itzhak Fried",
+  "type": "Lecture",
+  "date": "2026-11-15",
+  "start": "2026-11-15T12:00:00-05:00",
+  "end": "2026-11-15T13:00:00-05:00",
+  "location": "WCC Hall D",
+  "description": "Neurosurgical opportunities to record and stimulate single neurons in humans who can report their memories and intentions provide a unique window into the biology of mind. The speaker will present neuronal codes for space, time, and conceptual content derived from single-neuron and population activity in the hippocampal-entorhinal system; review modulation across wake-sleep cycles to enhance memory encoding and consolidation; and discuss ongoing work on targeted modification of specific memories.\n\nTo submit a question during the session, use the annual meeting mobile app.",
+  "curated_topics": [
+   "Clinical Neuroscience",
+   "Neuroengineering",
+   "Sleep",
+   "Spatial Learning and Memory"
+  ],
+  "mobile_app_type": "Lecture",
+  "objectives": [],
+  "presentation_count": "2",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/326",
+  "washu_roles": [
+   {
+    "role": "Moderator",
+    "presentation_id": "35186",
+    "people": [
+     "S. WANG"
+    ]
+   }
+  ],
+  "washu_presentation_ids": [
+   "35186"
+  ],
+  "washu_chair_or_organizer": true,
+  "don_linked": false,
+  "context_presentation_ids": [
+   "2082"
+  ]
+ },
+ {
+  "id": "2195",
+  "number": "LBP007",
+  "title": "H.01. Fear and Aversive Learning and Memory",
+  "type": "Late-Breaking Poster",
+  "date": "2026-11-15",
+  "start": "2026-11-15T13:00:00-05:00",
+  "end": "2026-11-15T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Late-Breaking Poster",
+  "objectives": [],
+  "presentation_count": "14",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2195",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "34020"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2197",
+  "number": "LBP009",
+  "title": "H.03. Motivation",
+  "type": "Late-Breaking Poster",
+  "date": "2026-11-15",
+  "start": "2026-11-15T13:00:00-05:00",
+  "end": "2026-11-15T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Late-Breaking Poster",
+  "objectives": [],
+  "presentation_count": "18",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2197",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "34043"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "847",
+  "number": "PSTR081",
+  "title": "Mechanisms of Neurodevelopment: Humans and Non-Human Primates",
+  "type": "Poster",
+  "date": "2026-11-15",
+  "start": "2026-11-15T13:00:00-05:00",
+  "end": "2026-11-15T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Development"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "14",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/847",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "33627"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "988",
+  "number": "PSTR091",
+  "title": "ALS and Motor Neuron Diseases: Therapeutics",
+  "type": "Poster",
+  "date": "2026-11-15",
+  "start": "2026-11-15T13:00:00-05:00",
+  "end": "2026-11-15T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Clinical Neuroscience"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "12",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/988",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "21829"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1201",
+  "number": "PSTR102",
+  "title": "Neuroendocrine Anatomy and Physiology",
+  "type": "Poster",
+  "date": "2026-11-15",
+  "start": "2026-11-15T13:00:00-05:00",
+  "end": "2026-11-15T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Brain Body Interactions",
+   "Sex Differences"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "21",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1201",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "23717"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1380",
+  "number": "PSTR108",
+  "title": "Executive Function in Humans",
+  "type": "Poster",
+  "date": "2026-11-15",
+  "start": "2026-11-15T13:00:00-05:00",
+  "end": "2026-11-15T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Executive Function"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "12",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1380",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "25118"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "289",
+  "number": "MIN11",
+  "title": "Glial Regulation of Motor Circuit Formation, Function, and Regeneration — Sarah Ackerman",
+  "type": "Minisymposium",
+  "date": "2026-11-15",
+  "start": "2026-11-15T14:00:00-05:00",
+  "end": "2026-11-15T16:30:00-05:00",
+  "location": "WCC Rm 150",
+  "description": "From simple planaria to humans, proper assembly and maintenance of motor circuits is key to organismal survival. Recent data indicate that glia, a heterogeneous group of non-neuronal cells within the nervous system, directly communicate with neurons to tune motor circuit dynamics. This minisymposium will highlight recent advances in our understanding of how diverse glial cell types promote proper formation, function, and reconstruction of the key circuits that drive motor behavior.",
+  "curated_topics": [
+   "Brain and Spinal Cord Injury",
+   "Glia"
+  ],
+  "mobile_app_type": "Minisymposium",
+  "objectives": [
+   "Answer long-standing questions: does motor circuit regeneration mimic development?",
+   "Identify conserved principles of motor circuit structure/function across species.",
+   "Spark new questions related to glia-glia signaling in motor circuits."
+  ],
+  "presentation_count": "8",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/289",
+  "washu_roles": [
+   {
+    "role": "Chair",
+    "presentation_id": "1905",
+    "people": [
+     "S. D. Ackerman"
+    ]
+   }
+  ],
+  "washu_presentation_ids": [
+   "1905",
+   "1922"
+  ],
+  "washu_chair_or_organizer": true,
+  "don_linked": false,
+  "context_presentation_ids": [
+   "1908",
+   "1914",
+   "1921",
+   "1926",
+   "1934",
+   "1931"
+  ]
+ },
+ {
+  "id": "306",
+  "number": "LEC10",
+  "title": "Presidential Special Lecture: Rett Syndrome and MeCP2 Disorders: Genes, Circuits, and Treatment Strategies — Huda Y. Zoghbi",
+  "type": "Lecture",
+  "date": "2026-11-15",
+  "start": "2026-11-15T17:30:00-05:00",
+  "end": "2026-11-15T18:45:00-05:00",
+  "location": "WCC Hall D",
+  "description": "Rett syndrome is a severe childhood neurological disorder caused by mutations in methyl CpG binding protein 2 (MeCP2). The brain is acutely sensitive to MeCP2 levels — both loss and gain of function produce neurological disease in mice and humans. This lecture will cover cell-specific molecular changes downstream of MeCP2 dysfunction, the neuronal and circuit abnormalities driving Rett phenotypes, and therapeutic strategies targeting MeCP2 loss and gain.",
+  "curated_topics": [
+   "Autism Spectrum Disorder",
+   "Clinical Neuroscience",
+   "Neurodevelopmental Disorders"
+  ],
+  "mobile_app_type": "Lecture",
+  "objectives": [],
+  "presentation_count": "4",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/306",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "35163"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2209",
+  "number": "LBP021",
+  "title": "D.03. Stroke",
+  "type": "Late-Breaking Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T08:00:00-05:00",
+  "end": "2026-11-16T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Late-Breaking Poster",
+  "objectives": [],
+  "presentation_count": "13",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2209",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "34218"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2219",
+  "number": "LBP031",
+  "title": "G.07. Biological Rhythms and Sleep",
+  "type": "Late-Breaking Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T08:00:00-05:00",
+  "end": "2026-11-16T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Late-Breaking Poster",
+  "objectives": [],
+  "presentation_count": "20",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2219",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "34352"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "444",
+  "number": "NANO16",
+  "title": "Autism: Synaptic and Cellular Mechanisms",
+  "type": "Nanosymposium",
+  "date": "2026-11-16",
+  "start": "2026-11-16T08:00:00-05:00",
+  "end": "2026-11-16T10:45:00-05:00",
+  "location": "WCC Rm 144",
+  "description": "",
+  "curated_topics": [
+   "Autism Spectrum Disorder",
+   "Neurodevelopmental Disorders",
+   "Synapses and Plasticity"
+  ],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "12",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/444",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "18656"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "720",
+  "number": "NANO19",
+  "title": "Neural and Molecular Mechanisms of Addictive Drugs",
+  "type": "Nanosymposium",
+  "date": "2026-11-16",
+  "start": "2026-11-16T08:00:00-05:00",
+  "end": "2026-11-16T11:00:00-05:00",
+  "location": "WCC Rm 143",
+  "description": "",
+  "curated_topics": [
+   "Drugs and Addiction"
+  ],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "14",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/720",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "19624"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2061",
+  "number": "PSTR125",
+  "title": "Neuro-Oncology: Molecular Mechanisms and Signaling Pathways",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T08:00:00-05:00",
+  "end": "2026-11-16T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "11",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2061",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "29398"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "951",
+  "number": "PSTR127",
+  "title": "Alzheimer's Disease Therapeutic Strategies: Tau",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T08:00:00-05:00",
+  "end": "2026-11-16T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Alzheimer’s Disease",
+   "Clinical Neuroscience"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "10",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/951",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "33503"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1080",
+  "number": "PSTR135",
+  "title": "Auditory Circuits, Anatomical Organization, and Plasticity",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T08:00:00-05:00",
+  "end": "2026-11-16T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Synapses and Plasticity"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "17",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1080",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "22735"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1177",
+  "number": "PSTR141",
+  "title": "Motor Units, Kinematics, and EMG",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T08:00:00-05:00",
+  "end": "2026-11-16T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "24",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1177",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "23547",
+   "23548",
+   "23549",
+   "23550"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2076",
+  "number": "PSTR151",
+  "title": "Neural and Behavioral Mechanisms of Opioid Seeking, Withdrawal, and Relapse",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T08:00:00-05:00",
+  "end": "2026-11-16T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Drugs and Addiction"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "29",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2076",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "29614",
+   "29624"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1343",
+  "number": "PSTR152",
+  "title": "Neural Substrates of Opioid Seeking",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T08:00:00-05:00",
+  "end": "2026-11-16T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Drugs and Addiction"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "25",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1343",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "29712"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1989",
+  "number": "PSTR155",
+  "title": "Behavioral and Circuit Mechanisms of Social Behavior II",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T08:00:00-05:00",
+  "end": "2026-11-16T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Behavioral Neuroscience",
+   "Neuroethology and Evolution",
+   "Reinforcement Learning",
+   "Social Cognition and Behavior"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "30",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1989",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "26511"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1481",
+  "number": "PSTR158",
+  "title": "Language: Neural Circuits and Mechanisms II",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T08:00:00-05:00",
+  "end": "2026-11-16T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "22",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1481",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "25781"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1526",
+  "number": "PSTR161",
+  "title": "Data Analysis and Statistics: Human Data I",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T08:00:00-05:00",
+  "end": "2026-11-16T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "27",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1526",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "26280"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "301",
+  "number": "MIN16",
+  "title": "Amygdala-Centered Cortico-Subcortical Networks in Social Perception and Decision-Making — Sai Sun",
+  "type": "Minisymposium",
+  "date": "2026-11-16",
+  "start": "2026-11-16T09:30:00-05:00",
+  "end": "2026-11-16T12:00:00-05:00",
+  "location": "WCC Rm 146AB",
+  "description": "This symposium advances causal understanding of amygdala-centered subcortical networks underlying social perception, affective processing, and motivational decision-making. Integrating intracranial recordings, neurosurgical and neuromodulatory approaches, and computational modeling, it highlights how frontal-striatal-amygdala circuits shape emotional behavior in healthy and clinical populations.",
+  "curated_topics": [
+   "Behavioral Neuroscience",
+   "Decision Making",
+   "Reinforcement Learning",
+   "Social Cognition and Behavior"
+  ],
+  "mobile_app_type": "Minisymposium",
+  "objectives": [
+   "Describe how amygdala-centered cortico–subcortical networks contribute to social perception and affective decision-making across healthy and clinical populations.",
+   "Compare invasive, noninvasive, and minimally invasive methods for causally probing and modulating amygdala-centered circuits, including stimulation, ablation, and neuromodulation approaches.",
+   "Evaluate how circuit-level and computational models of amygdala-centered networks inform mechanisms of emotional bias and guide translational interventions in neuropsychiatric disorders."
+  ],
+  "presentation_count": "8",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/301",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "2024",
+   "2295"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "98",
+  "number": "MIN17",
+  "title": "From Pathways to Pathology: High-Plex Spatial Proteomics From 2D Single-Cell to 3D Neuroscience — Miranda Orr",
+  "type": "Minisymposium",
+  "date": "2026-11-16",
+  "start": "2026-11-16T09:30:00-05:00",
+  "end": "2026-11-16T12:00:00-05:00",
+  "location": "WCC Rm 151",
+  "description": "Single-cell studies have revealed selective alterations in brain cell types during development, aging and neurodegenerative disease, but most rely on dissociated tissue and transcriptomics, losing spatial context and protein-level biology. This minisymposium highlights spatial proteomic imaging, from high-plex single-cell mapping to 3D spatial proteomics, to localize pathways in intact brain tissue and define cell- and circuit-level mechanisms.",
+  "curated_topics": [],
+  "mobile_app_type": "Minisymposium",
+  "objectives": [
+   "Describe major spatial proteomic imaging modalities (high-plex to 3D) and the types of biological questions each is best suited to address in brain aging and neurodegeneration.",
+   "Interpret spatial proteomic patterns at the cellular and microenvironment level (e.g., neuron–glia niches, pathology-associated states) to infer pathway activation and disease-relevant mechanisms.",
+   "Evaluate strategies for integrating spatial proteomics with other spatial modalities and neuropathology to increase mechanistic interpretability and translational relevance."
+  ],
+  "presentation_count": "8",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/98",
+  "washu_roles": [
+   {
+    "role": "Chair",
+    "presentation_id": "394",
+    "people": [
+     "M. Orr"
+    ]
+   }
+  ],
+  "washu_presentation_ids": [
+   "394",
+   "1178"
+  ],
+  "washu_chair_or_organizer": true,
+  "don_linked": false,
+  "context_presentation_ids": [
+   "1160",
+   "1847",
+   "1176",
+   "1181",
+   "1174",
+   "1180"
+  ]
+ },
+ {
+  "id": "2222",
+  "number": "LBP034",
+  "title": "E.01. Somatosensation – Pain and Itch",
+  "type": "Late-Breaking Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T13:00:00-05:00",
+  "end": "2026-11-16T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Late-Breaking Poster",
+  "objectives": [],
+  "presentation_count": "37",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2222",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "34375"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2223",
+  "number": "LBP035",
+  "title": "E.02. Somatosensation – Touch",
+  "type": "Late-Breaking Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T13:00:00-05:00",
+  "end": "2026-11-16T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Late-Breaking Poster",
+  "objectives": [],
+  "presentation_count": "17",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2223",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "34413"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "758",
+  "number": "NANO25",
+  "title": "Value, Memory, and Social Inference: Multi-Circuit Dynamics of Human Cognition",
+  "type": "Nanosymposium",
+  "date": "2026-11-16",
+  "start": "2026-11-16T13:00:00-05:00",
+  "end": "2026-11-16T16:00:00-05:00",
+  "location": "WCC Rm 143",
+  "description": "",
+  "curated_topics": [
+   "Decision Making",
+   "Executive Function",
+   "Reinforcement Learning"
+  ],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "14",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/758",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "27736",
+   "27733",
+   "27738",
+   "27740"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2063",
+  "number": "PSTR163",
+  "title": "Transcriptional and Epigenetic Regulation of Neurogenesis",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T13:00:00-05:00",
+  "end": "2026-11-16T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Development"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "13",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2063",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "28218",
+   "28219"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "983",
+  "number": "PSTR172",
+  "title": "Tauopathies, Synucleinopathies, and Other Related Diseases: Animal Models",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T13:00:00-05:00",
+  "end": "2026-11-16T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Alzheimer’s Disease"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "18",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/983",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "21779"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "993",
+  "number": "PSTR173",
+  "title": "Neuroprotective Mechanisms: Preclinical",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T13:00:00-05:00",
+  "end": "2026-11-16T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Brain and Spinal Cord Injury"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "22",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/993",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "31850"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1057",
+  "number": "PSTR179",
+  "title": "Non-Opioid Treatments for Persistent Pain",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T13:00:00-05:00",
+  "end": "2026-11-16T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Clinical Neuroscience",
+   "Pain and Itch"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "27",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1057",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "31078"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1072",
+  "number": "PSTR181",
+  "title": "Interoception: Central Circuits and Peripheral Mechanisms",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T13:00:00-05:00",
+  "end": "2026-11-16T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Brain Body Interactions"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "20",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1072",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "33557"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1090",
+  "number": "PSTR183",
+  "title": "Photoreceptors and Retinal Circuitry",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T13:00:00-05:00",
+  "end": "2026-11-16T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Vision"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "20",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1090",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "28247"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1111",
+  "number": "PSTR185",
+  "title": "Visual Learning, Memory, Categorization, and Processing",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T13:00:00-05:00",
+  "end": "2026-11-16T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Vision"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "22",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1111",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "26735",
+   "26741"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2001",
+  "number": "PSTR193",
+  "title": "Internal State, Feeding, and Physical Activity in Motivated Behavior",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T13:00:00-05:00",
+  "end": "2026-11-16T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Behavioral Neuroscience",
+   "Sex Differences"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "18",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2001",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "27424"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1302",
+  "number": "PSTR194",
+  "title": "Post-Traumatic Stress Disorder and Other Psychiatric Disorders: Human Studies and Therapeutic Approaches",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T13:00:00-05:00",
+  "end": "2026-11-16T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Clinical Neuroscience",
+   "Depression and Anxiety"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "22",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1302",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "28838"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1379",
+  "number": "PSTR200",
+  "title": "Prefrontal Mechanisms of Executive Function in Humans and Animals",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T13:00:00-05:00",
+  "end": "2026-11-16T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Executive Function"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "28",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1379",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "30132",
+   "25107",
+   "30134"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2123",
+  "number": "PSTR205",
+  "title": "Sensors and Probes",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T13:00:00-05:00",
+  "end": "2026-11-16T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Tools for Circuit Neuroscience"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "18",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2123",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "33421"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "894",
+  "number": "PSTR208",
+  "title": "Computational Modeling of Synaptic Networks",
+  "type": "Poster",
+  "date": "2026-11-16",
+  "start": "2026-11-16T13:00:00-05:00",
+  "end": "2026-11-16T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Computational Neuroscience",
+   "Tools for Circuit Neuroscience"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "30",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/894",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "27963"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "249",
+  "number": "SYM08",
+  "title": "Molecular Mechanisms Governing Cerebral Cortex Formation and Their Disruption in Human Developmental Disorders — Linda Richards",
+  "type": "Symposium",
+  "date": "2026-11-16",
+  "start": "2026-11-16T14:00:00-05:00",
+  "end": "2026-11-16T16:30:00-05:00",
+  "location": "WCC Ballroom B",
+  "description": "The development of the earliest stages of cerebral cortex formation is critical for establishing the correct number and types of neurons, and precise areas and circuits devoted to processing different types of information. Recent advances in the transcriptional pathways regulating these early processes will be addressed, highlighting how these mechanisms allow a deeper understanding of the etiology of congenital malformations and neurodevelopmental disorders of the human cerebral cortex.",
+  "curated_topics": [
+   "Autism Spectrum Disorder",
+   "Development",
+   "Neurodevelopmental Disorders"
+  ],
+  "mobile_app_type": "Symposium",
+  "objectives": [
+   "Understand the molecular mechanisms governing early cortical development.",
+   "Identify key genes implicated in human cortical developmental disorders.",
+   "Describe how specific genes disrupt early cellular populations and lead to downstream effects on brain formation."
+  ],
+  "presentation_count": "6",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/249",
+  "washu_roles": [
+   {
+    "role": "Chair",
+    "presentation_id": "1461",
+    "people": [
+     "L. J. Richards"
+    ]
+   }
+  ],
+  "washu_presentation_ids": [
+   "1461",
+   "1463"
+  ],
+  "washu_chair_or_organizer": true,
+  "don_linked": true,
+  "context_presentation_ids": [
+   "1462",
+   "1473",
+   "1464",
+   "1469"
+  ]
+ },
+ {
+  "id": "2182",
+  "number": "SAT46",
+  "title": "Washington University in St. Louis Neuroscience Reception",
+  "type": "Satellite/Ancillary Events",
+  "date": "2026-11-16",
+  "start": "2026-11-16T19:00:00-05:00",
+  "end": "2026-11-16T22:00:00-05:00",
+  "location": "Yard House 812 7th St NW, Washington, DC 20001",
+  "description": "Yard House 812 7th St NW, Washington, DC 20001. The Washington University neuroscience community invites you to join us for a social gathering featuring engaging conversation and opportunities to connect. Catch up with colleagues, build new friendships, and foster collaborations among faculty, postdoctoral fellows, and students. Prospective graduate students and postdoctoral fellows are also warmly invited to learn about current research, emerging directions, and future opportunities. Refreshments and hors d'oeuvres will be served.",
+  "curated_topics": [],
+  "mobile_app_type": "Satellite/Ancillary Events",
+  "objectives": [],
+  "presentation_count": "1",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2182",
+  "washu_roles": [
+   {
+    "role": "Satellite Organizer",
+    "presentation_id": "33816",
+    "people": []
+   }
+  ],
+  "washu_presentation_ids": [
+   "33816"
+  ],
+  "washu_chair_or_organizer": true,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "703",
+  "number": "NANO29",
+  "title": "Neural Circuits of Reward and Appetitive Learning and Memory",
+  "type": "Nanosymposium",
+  "date": "2026-11-17",
+  "start": "2026-11-17T08:00:00-05:00",
+  "end": "2026-11-17T10:45:00-05:00",
+  "location": "WCC Rm 146C",
+  "description": "",
+  "curated_topics": [
+   "Behavioral Neuroscience",
+   "Reinforcement Learning"
+  ],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "12",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/703",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "19551"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "737",
+  "number": "NANO30",
+  "title": "Multi-Level Mechanisms for Flexible Behavior",
+  "type": "Nanosymposium",
+  "date": "2026-11-17",
+  "start": "2026-11-17T08:00:00-05:00",
+  "end": "2026-11-17T11:15:00-05:00",
+  "location": "WCC Rm 143",
+  "description": "",
+  "curated_topics": [
+   "Behavioral Neuroscience",
+   "Decision Making",
+   "Executive Function",
+   "Reinforcement Learning"
+  ],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "14",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/737",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "19678"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "539",
+  "number": "NANO31",
+  "title": "Connectomics",
+  "type": "Nanosymposium",
+  "date": "2026-11-17",
+  "start": "2026-11-17T08:00:00-05:00",
+  "end": "2026-11-17T10:15:00-05:00",
+  "location": "WCC Rm 145",
+  "description": "",
+  "curated_topics": [
+   "Tools for Circuit Neuroscience"
+  ],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "10",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/539",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "25936"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1042",
+  "number": "PSTR226",
+  "title": "Pain: Spinal Circuits",
+  "type": "Poster",
+  "date": "2026-11-17",
+  "start": "2026-11-17T08:00:00-05:00",
+  "end": "2026-11-17T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Pain and Itch"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "27",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1042",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "22395",
+   "22409",
+   "22413",
+   "22407"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1095",
+  "number": "PSTR231",
+  "title": "Visual Cortex: Populations",
+  "type": "Poster",
+  "date": "2026-11-17",
+  "start": "2026-11-17T08:00:00-05:00",
+  "end": "2026-11-17T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Vision"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "22",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1095",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "22874",
+   "26715"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1381",
+  "number": "PSTR246",
+  "title": "Executive Function and Learning",
+  "type": "Poster",
+  "date": "2026-11-17",
+  "start": "2026-11-17T08:00:00-05:00",
+  "end": "2026-11-17T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Executive Function"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "26",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1381",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "25120",
+   "25121",
+   "25122",
+   "25124",
+   "30239",
+   "30240",
+   "25131"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2086",
+  "number": "PSTR250",
+  "title": "Population Dynamics and Neural Representations",
+  "type": "Poster",
+  "date": "2026-11-17",
+  "start": "2026-11-17T08:00:00-05:00",
+  "end": "2026-11-17T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Computational Neuroscience"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "22",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2086",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "30571",
+   "30579"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "69",
+  "number": "MIN25",
+  "title": "Novel Synaptic Mechanisms Underlying Antidepressant-Like Behaviors — Zhenzhong Ma",
+  "type": "Minisymposium",
+  "date": "2026-11-17",
+  "start": "2026-11-17T09:30:00-05:00",
+  "end": "2026-11-17T12:00:00-05:00",
+  "location": "WCC Rm 147",
+  "description": "Novel antidepressants, such as ketamine and psilocybin, produce rapid and sustained therapeutic effects in patients with depression. Neuroplasticity, characterized by adaptive changes in synaptic strength, spinogenesis, and circuit plasticity across multiple brain regions, is essential for antidepressant and stress responses. This minisymposium highlights recent advances in elucidating these critical synaptic mechanisms, which may inform the development of improved antidepressant therapies.",
+  "curated_topics": [
+   "Depression and Anxiety",
+   "Synapses and Plasticity"
+  ],
+  "mobile_app_type": "Minisymposium",
+  "objectives": [
+   "Enhance understanding of the synaptic and circuit mechanisms behind ketamine and psychedelics' antidepressant effects. Help broaden knowledge of neuroplasticity and its critical role in regulating antidepressant and stress responses.",
+   "Learn novel approaches for analyzing these mechanisms, including but not limited to electrophysiology, advanced imaging, and optical/pharmacological neuromodulation. This will offer a valuable overview of the experimental tools used in the field.",
+   "Help answer critical questions, such as: Can we manipulate antidepressant-induced synaptic plasticity? How can we leverage these mechanisms to improve drug effects? Can we identify new drug targets to develop better antidepressant treatments? "
+  ],
+  "presentation_count": "8",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/69",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "677"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "253",
+  "number": "SYM09",
+  "title": "Cerebrospinal Fluid: Form, Flow, and Function — Laura Lewis",
+  "type": "Symposium",
+  "date": "2026-11-17",
+  "start": "2026-11-17T09:30:00-05:00",
+  "end": "2026-11-17T12:00:00-05:00",
+  "location": "WCC Ballroom B",
+  "description": "Recent work has ushered in a new era for the cerebrospinal fluid (CSF), revealing many opportunities for investigating, diagnosing, and potentially treating brain disorders. However, CSF production, circulation, and functions represent some of the least understood areas in neuroscience. This session will bring together an interdisciplinary group of scientists to share recent discoveries and conceptual advancements in this emerging field.",
+  "curated_topics": [
+   "Sleep"
+  ],
+  "mobile_app_type": "Symposium",
+  "objectives": [
+   "Discuss questions and challenges of CSF research. ",
+   "Identify neural mechanisms that regulate neurovascular and CSF dynamics including during sleep.",
+   "Understand how CSF clearance from the brain is linked to brain immune surveillance."
+  ],
+  "presentation_count": "5",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/253",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "1504"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "218",
+  "number": "BTCR02",
+  "title": "From Bed to Bench and Back Again: Integrating Patient Insight Into Translational Neuroscience — Kirk Leech",
+  "type": "Basic-Translational-Clinical Roundtables",
+  "date": "2026-11-17",
+  "start": "2026-11-17T10:30:00-05:00",
+  "end": "2026-11-17T12:00:00-05:00",
+  "location": "WCC Rm 152",
+  "description": "This roundtable explores how patient perspectives can actively shape translational neuroscience. Drawing on EARA’s Patient Discovery Project and in partnership with patient advocacy groups, the session highlights how structured patient–clinician-researcher dialogue can demonstrate real-world impact of neuroscience research, while supporting sustainable, patient-centered innovation.",
+  "curated_topics": [
+   "Clinical Neuroscience"
+  ],
+  "mobile_app_type": "Basic-Translational-Clinical Roundtables",
+  "objectives": [
+   "Understand how patient-derived insights can inform preclinical study design and improve translational relevance.",
+   "Evaluate the role of animal research that is transparent and responsive to patient needs in developing safe and effective neurotherapies.",
+   "Identify practical ways to foster dialogue between patients, basic science researchers, and clinical researchers in neuroscience."
+  ],
+  "presentation_count": "4",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/218",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "1251"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2241",
+  "number": "LBP053",
+  "title": "A.02. Stem Cells and Reprogramming",
+  "type": "Late-Breaking Poster",
+  "date": "2026-11-17",
+  "start": "2026-11-17T13:00:00-05:00",
+  "end": "2026-11-17T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Late-Breaking Poster",
+  "objectives": [],
+  "presentation_count": "10",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2241",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "34657"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "712",
+  "number": "NANO35",
+  "title": "From Neurons to Narratives: Multimodal Approaches to Human Affect",
+  "type": "Nanosymposium",
+  "date": "2026-11-17",
+  "start": "2026-11-17T13:00:00-05:00",
+  "end": "2026-11-17T15:00:00-05:00",
+  "location": "WCC Rm 146C",
+  "description": "",
+  "curated_topics": [
+   "Neuroscience of Emotions Across Species"
+  ],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "10",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/712",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "31462"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2127",
+  "number": "NANO37",
+  "title": "Single-Cell Analysis",
+  "type": "Nanosymposium",
+  "date": "2026-11-17",
+  "start": "2026-11-17T13:00:00-05:00",
+  "end": "2026-11-17T15:30:00-05:00",
+  "location": "WCC Rm 145",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "10",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2127",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "33593"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "391",
+  "number": "NOA20",
+  "title": "The Advocacy Forum: A Congressional Neuroscience Caucus Briefing\n\nThe Era of Neuroscience Innovation: How Federal Investment Seeds Innovation Leading to Cures and Treatments",
+  "type": "Networking/ Public Outreach/ and Advocacy",
+  "date": "2026-11-17",
+  "start": "2026-11-17T13:00:00-05:00",
+  "end": "2026-11-17T14:30:00-05:00",
+  "location": "Rayburn House Office Building Room 2168",
+  "description": "New cures and treatments depend on sustained investment in NIH-funded research. This congressional briefing, co-hosted by the American Brain Coalition in cooperation with the Congressional Neuroscience Caucus, will explore how neuroscientists are harnessing gene therapy to treat neurological developmental disorders. Panelists will discuss groundbreaking advancements, the scientific discoveries that made them possible, and what the future holds for the next generation of gene therapies.",
+  "curated_topics": [],
+  "mobile_app_type": "Networking/ Public Outreach/ and Advocacy",
+  "objectives": [],
+  "presentation_count": "4",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/391",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "2470"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "842",
+  "number": "PSTR254",
+  "title": "Animal Models of Developmental Disorders Other Than Autism",
+  "type": "Poster",
+  "date": "2026-11-17",
+  "start": "2026-11-17T13:00:00-05:00",
+  "end": "2026-11-17T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Development"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "29",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/842",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "20266"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "941",
+  "number": "PSTR260",
+  "title": "Alzheimer's Disease: Neural Circuit Disruption II",
+  "type": "Poster",
+  "date": "2026-11-17",
+  "start": "2026-11-17T13:00:00-05:00",
+  "end": "2026-11-17T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Alzheimer’s Disease"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "27",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/941",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "29383"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "948",
+  "number": "PSTR261",
+  "title": "Alzheimer's Disease: Tau Mechanisms",
+  "type": "Poster",
+  "date": "2026-11-17",
+  "start": "2026-11-17T13:00:00-05:00",
+  "end": "2026-11-17T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Alzheimer’s Disease"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "18",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/948",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "21423"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "953",
+  "number": "PSTR262",
+  "title": "Alzheimer's Disease Therapeutic Strategies: Other",
+  "type": "Poster",
+  "date": "2026-11-17",
+  "start": "2026-11-17T13:00:00-05:00",
+  "end": "2026-11-17T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Alzheimer’s Disease",
+   "Clinical Neuroscience"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "31",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/953",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "21497"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1054",
+  "number": "PSTR271",
+  "title": "Brain Circuits and Mechanisms of Pain",
+  "type": "Poster",
+  "date": "2026-11-17",
+  "start": "2026-11-17T13:00:00-05:00",
+  "end": "2026-11-17T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Pain and Itch"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "26",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1054",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "33044"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1088",
+  "number": "PSTR275",
+  "title": "Auditory Perception and Cognition in Humans and Animals",
+  "type": "Poster",
+  "date": "2026-11-17",
+  "start": "2026-11-17T13:00:00-05:00",
+  "end": "2026-11-17T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "23",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1088",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "22814"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1137",
+  "number": "PSTR276",
+  "title": "Action/Sensation/Movement Selection: Animal (Behavior/Physiology/Imaging)",
+  "type": "Poster",
+  "date": "2026-11-17",
+  "start": "2026-11-17T13:00:00-05:00",
+  "end": "2026-11-17T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "25",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1137",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "30295"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2096",
+  "number": "PSTR283",
+  "title": "Molecular, Neurochemical, and Neuroimmune Mechanisms of Alcohol",
+  "type": "Poster",
+  "date": "2026-11-17",
+  "start": "2026-11-17T13:00:00-05:00",
+  "end": "2026-11-17T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Drugs and Addiction",
+   "Microglia and Neuroimmune Interactions"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "15",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2096",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "31370"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1525",
+  "number": "PSTR294",
+  "title": "Data Analysis and Statistics: Human Data II",
+  "type": "Poster",
+  "date": "2026-11-17",
+  "start": "2026-11-17T13:00:00-05:00",
+  "end": "2026-11-17T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "27",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1525",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "26268",
+   "26269",
+   "26270",
+   "26271",
+   "26272"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2265",
+  "number": "LBP077",
+  "title": "J.07. Data Analysis and Statistics",
+  "type": "Late-Breaking Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T08:00:00-05:00",
+  "end": "2026-11-18T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Late-Breaking Poster",
+  "objectives": [],
+  "presentation_count": "16",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2265",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "34932"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "620",
+  "number": "NANO41",
+  "title": "Visual Cortex: Functional Architecture and Circuits",
+  "type": "Nanosymposium",
+  "date": "2026-11-18",
+  "start": "2026-11-18T08:00:00-05:00",
+  "end": "2026-11-18T11:30:00-05:00",
+  "location": "WCC Rm 146C",
+  "description": "",
+  "curated_topics": [
+   "Vision"
+  ],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "15",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/620",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "19272"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "736",
+  "number": "NANO43",
+  "title": "Prefrontal Cortex in Learning and Decision-Making",
+  "type": "Nanosymposium",
+  "date": "2026-11-18",
+  "start": "2026-11-18T08:00:00-05:00",
+  "end": "2026-11-18T10:45:00-05:00",
+  "location": "WCC Rm 143",
+  "description": "",
+  "curated_topics": [
+   "Decision Making",
+   "Executive Function",
+   "Reinforcement Learning"
+  ],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "12",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/736",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "19669"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "930",
+  "number": "PSTR302",
+  "title": "Alzheimer's Disease:?Pathological and Reverse Translational Studies",
+  "type": "Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T08:00:00-05:00",
+  "end": "2026-11-18T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Alzheimer’s Disease"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "16",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/930",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "21219"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "982",
+  "number": "PSTR308",
+  "title": "Tauopathies, Synucleinopathies, and Other Related Diseases: Cellular and Molecular Mechanisms",
+  "type": "Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T08:00:00-05:00",
+  "end": "2026-11-18T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Alzheimer’s Disease",
+   "Movement Disorders"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "29",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/982",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "32036",
+   "21762"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1018",
+  "number": "PSTR312",
+  "title": "Brain Injury: Human Studies",
+  "type": "Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T08:00:00-05:00",
+  "end": "2026-11-18T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Brain and Spinal Cord Injury",
+   "Clinical Neuroscience"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "26",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1018",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "22155"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1113",
+  "number": "PSTR316",
+  "title": "Sensorimotor Transformation: Behavior and Neuroprocessing",
+  "type": "Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T08:00:00-05:00",
+  "end": "2026-11-18T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Neuroethology and Evolution",
+   "Vision"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "20",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1113",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "23009"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1997",
+  "number": "PSTR328",
+  "title": "Nicotine Dependence, Reinforcement, and Withdrawal Mechanisms",
+  "type": "Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T08:00:00-05:00",
+  "end": "2026-11-18T12:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Drugs and Addiction"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "10",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1997",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "27517"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2271",
+  "number": "LBP083",
+  "title": "I.05. Working Memory",
+  "type": "Late-Breaking Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T13:00:00-05:00",
+  "end": "2026-11-18T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Late-Breaking Poster",
+  "objectives": [],
+  "presentation_count": "14",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2271",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "35027"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "2274",
+  "number": "LBP086",
+  "title": "I.08. Learning and Memory",
+  "type": "Late-Breaking Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T13:00:00-05:00",
+  "end": "2026-11-18T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Late-Breaking Poster",
+  "objectives": [],
+  "presentation_count": "32",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/2274",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "35056",
+   "35068",
+   "35083"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "550",
+  "number": "NANO47",
+  "title": "ALS and Motor Neuron Diseases: Human Genetics and Cellular Mechanisms",
+  "type": "Nanosymposium",
+  "date": "2026-11-18",
+  "start": "2026-11-18T13:00:00-05:00",
+  "end": "2026-11-18T16:00:00-05:00",
+  "location": "WCC Rm 146C",
+  "description": "",
+  "curated_topics": [
+   "Clinical Neuroscience"
+  ],
+  "mobile_app_type": "Nanosymposium",
+  "objectives": [],
+  "presentation_count": "13",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/550",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "30928"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "857",
+  "number": "PSTR343",
+  "title": "Neurotransmitters",
+  "type": "Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T13:00:00-05:00",
+  "end": "2026-11-18T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "22",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/857",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "31208"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "931",
+  "number": "PSTR350",
+  "title": "Alzheimer's Disease:?Metabolomics, Proteomics, and Multi-Omics",
+  "type": "Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T13:00:00-05:00",
+  "end": "2026-11-18T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Alzheimer’s Disease"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "22",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/931",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "28632"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1092",
+  "number": "PSTR361",
+  "title": "Visual Pathways: Subcortical and Others",
+  "type": "Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T13:00:00-05:00",
+  "end": "2026-11-18T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Vision"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "26",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1092",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "26584",
+   "26592"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1101",
+  "number": "PSTR362",
+  "title": "Visual Cortex: Functional Architecture and Circuits",
+  "type": "Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T13:00:00-05:00",
+  "end": "2026-11-18T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Vision"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "25",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1101",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "27839"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1288",
+  "number": "PSTR372",
+  "title": "Mood Disorders: Human Imaging and Behavioral Studies",
+  "type": "Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T13:00:00-05:00",
+  "end": "2026-11-18T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Clinical Neuroscience",
+   "Depression and Anxiety",
+   "Reinforcement Learning"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "24",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1288",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "24439"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1358",
+  "number": "PSTR377",
+  "title": "Computational Models of Decision-Making",
+  "type": "Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T13:00:00-05:00",
+  "end": "2026-11-18T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Computational Neuroscience",
+   "Decision Making",
+   "Reinforcement Learning"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "16",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1358",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "24965"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1405",
+  "number": "PSTR378",
+  "title": "Long-Term Memory in Human Medial Temporal Lobe",
+  "type": "Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T13:00:00-05:00",
+  "end": "2026-11-18T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "14",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1405",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "25325"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": false,
+  "context_presentation_ids": []
+ },
+ {
+  "id": "1527",
+  "number": "PSTR383",
+  "title": "Data Analysis: Software Tools I",
+  "type": "Poster",
+  "date": "2026-11-18",
+  "start": "2026-11-18T13:00:00-05:00",
+  "end": "2026-11-18T17:00:00-05:00",
+  "location": "WCC Halls A-C",
+  "description": "",
+  "curated_topics": [
+   "Tools for Circuit Neuroscience"
+  ],
+  "mobile_app_type": "Poster",
+  "objectives": [],
+  "presentation_count": "29",
+  "url": "https://www.abstractsonline.com/pp8/#!/21503/session/1527",
+  "washu_roles": [],
+  "washu_presentation_ids": [
+   "27336"
+  ],
+  "washu_chair_or_organizer": false,
+  "don_linked": true,
+  "context_presentation_ids": []
+ }
+]
