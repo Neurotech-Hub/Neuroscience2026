@@ -218,6 +218,10 @@ h3.sub .n { font-weight: 400; color: var(--muted); font-size: 13px; }
 .tag.role { background: var(--green-tint); color: var(--green); }
 .tag.poster { background: #eaf0f8; color: #2a4f7c; }
 .tag.ctx { background: #fff; border: 1px dashed #b8c0c8; color: var(--muted); }
+.tag.event { background: #fdf1d8; color: #7a4b00; }
+.card.event { border-left: 4px solid #c98a14; background: linear-gradient(180deg, #fffaf0, #fff 60%); }
+.grid tr.event td:first-child { box-shadow: inset 4px 0 0 #c98a14; }
+.tl-chip.event { border-left-color: #c98a14; }
 
 .people-line { font-size: 13.5px; color: #38424c; }
 .person-name.don { font-weight: 700; color: var(--red-dark); }

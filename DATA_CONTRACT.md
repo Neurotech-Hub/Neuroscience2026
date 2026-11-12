@@ -44,6 +44,7 @@ Any other value is treated as `washu_other`. To add a new tier, edit `TIER_BY_LI
 
 ### `format`
 
+- **WashU events** take priority over the other format types. An item is a WashU event if its `don_flags` contain `washu_named_session`, or if its session type is a satellite, ancillary or networking event whose title names WashU. These items appear in every scope and use the session title and description.
 - `poster` (or `is_poster: true`) is a **Poster**.
 - `chair`, `co chair`, `moderator`, `satellite organizer`, `award winner` are **Roles** (shown with a role label).
 - Everything else, including `talk` and `lecture`, is a **Talk**.

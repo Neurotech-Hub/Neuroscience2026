@@ -69,17 +69,19 @@
   const itemIcs = (it) => icsLink([it], 'sfn2026-' + (it.number ? slug(it.number) : slug(it.title)), 'Neuroscience 2026');
 
   /* ---------- shared item pieces ---------- */
+  const tagClass = (it) => ({ role: 'role', poster: 'poster', event: 'event' })[it.group] || '';
+
   function tagsFor(it) {
     return h('div', { class: 'tags' },
       it.isDon && h('span', { class: 'tag don', title: 'Department of Neuroscience faculty author' }, 'DoN'),
-      h('span', { class: 'tag ' + (it.group === 'role' ? 'role' : it.group === 'poster' ? 'poster' : '') }, it.kind),
+      h('span', { class: 'tag ' + tagClass(it) }, it.kind),
       it.tier === SFN.CONTEXT_TIER && h('span', { class: 'tag ctx', title: 'Not WashU-authored; in a session WashU people chair or moderate' }, 'Session context')
     );
   }
 
   function peopleLine(it) {
     if (!it.washu.length) {
-      return it.presenter ? h('div', { class: 'people-line' }, 'Presenter: ' + it.presenter.replace(/,\s*(MS|PhD|MD|Ph\.D\.)$/i, '')) : null;
+      return it.presenter ? h('div', { class: 'people-line' }, (it.isEvent ? 'Organizer: ' : 'Presenter: ') + it.presenter.replace(/,\s*(MS|PhD|MD|Ph\.D\.)$/i, '')) : null;
     }
     const nodes = [];
     it.washu.forEach((a, i) => {
@@ -101,14 +103,21 @@
   }
   const whenText = (it) => SFN.fmtDay(it.date) + ' \u00b7 ' + SFN.fmtRange(it.start, it.end);
 
+  function itemLinks(it, cls, tag) {
+    const links = it.isEvent
+      ? [ext(it.sessionUrl || it.url, 'Event details')]
+      : [ext(it.url, 'Abstract'), ext(it.sessionUrl, 'Session')];
+    return h(tag || 'div', { class: cls }, links, itemIcs(it));
+  }
+
   function card(it, live) {
-    return h('article', { class: 'card' + (it.isDon ? ' don' : '') + (live ? ' live' : '') },
+    return h('article', { class: 'card' + (it.isDon ? ' don' : '') + (it.isEvent ? ' event' : '') + (live ? ' live' : '') },
       h('div', { class: 'card-time' }, whenText(it)),
       tagsFor(it),
       h('h3', { class: 'card-title' }, it.url ? h('a', { href: it.url, target: '_blank', rel: 'noopener' }, it.title) : it.title),
-      h('div', { class: 'card-where' }, [whereText(it), sessionText(it)].filter(Boolean).join(' \u2014 ')),
+      h('div', { class: 'card-where' }, [whereText(it), it.isEvent ? '' : sessionText(it)].filter(Boolean).join(' \u2014 ')),
       peopleLine(it),
-      h('div', { class: 'card-links' }, ext(it.url, 'Abstract'), ext(it.sessionUrl, 'Session'), itemIcs(it))
+      itemLinks(it, 'card-links')
     );
   }
 
@@ -142,7 +151,7 @@
         tile(M.donRosterSize ? donPresenting + ' / ' + M.donRosterSize : donPresenting, 'DoN faculty on the program'),
         tile(washu.length, 'WashU items in total'),
         tile(M.people.length, 'WashU PIs presenting'),
-        wide('Posters \u00b7 Talks \u00b7 Roles', count('poster') + ' \u00b7 ' + count('talk') + ' \u00b7 ' + count('role')),
+        wide('Posters \u00b7 Talks \u00b7 Roles \u00b7 Events', count('poster') + ' \u00b7 ' + count('talk') + ' \u00b7 ' + count('role') + ' \u00b7 ' + count('event')),
         wide('Sessions with WashU work', sessions),
         byDay.length ? wide('Busiest day', SFN.fmtDay(byDay[0][0]) + ' (' + byDay[0][1] + ')') : null
       ),
@@ -205,7 +214,7 @@
     });
 
     const fmtGroup = h('div', { class: 'fb-group' }, h('span', { class: 'fb-label' }, 'Format'));
-    [['poster', 'Poster'], ['talk', 'Talk'], ['role', 'Chair / roles']].forEach(([id, label]) => {
+    [['poster', 'Poster'], ['talk', 'Talk'], ['role', 'Chair / roles'], ['event', 'WashU events']].forEach(([id, label]) => {
       const c = h('button', { type: 'button', class: 'chip', onclick: () => F().toggle('fmts', id) }, label);
       ui.fmtChips[id] = c;
       fmtGroup.append(c);
@@ -323,7 +332,7 @@
       h('summary', null, plural(e.shown.length, 'item') + (e.shown.length !== p.items.length ? ' of ' + p.items.length : '')),
       h('ul', { class: 'mini-list' }, e.shown.map((it) => h('li', null,
         h('span', { class: 'when' }, whenText(it)),
-        h('span', null, h('span', { class: 'tag ' + (it.group === 'role' ? 'role' : it.group === 'poster' ? 'poster' : '') }, it.kind), ' ',
+        h('span', null, h('span', { class: 'tag ' + tagClass(it) }, it.kind), ' ',
           it.url ? h('a', { class: 't', href: it.url, target: '_blank', rel: 'noopener' }, it.title) : it.title),
         h('span', { class: 'sub' }, [whereText(it)].filter(Boolean).join(''), it.sessionUrl ? ' \u00b7 ' : '', ext(it.sessionUrl, 'Session'))
       )))
@@ -449,13 +458,13 @@
 
   /* ---------- At a glance ---------- */
   function itemRow(it) {
-    return h('article', { class: 'card' + (it.isDon ? ' don' : '') },
+    return h('article', { class: 'card' + (it.isDon ? ' don' : '') + (it.isEvent ? ' event' : '') },
       h('div', { class: 'card-time' }, SFN.fmtRange(it.start, it.end)),
       tagsFor(it),
       h('h3', { class: 'card-title' }, it.url ? h('a', { href: it.url, target: '_blank', rel: 'noopener' }, it.title) : it.title),
-      h('div', { class: 'card-where' }, [whereText(it), sessionText(it)].filter(Boolean).join(' \u2014 ')),
+      h('div', { class: 'card-where' }, [whereText(it), it.isEvent ? '' : sessionText(it)].filter(Boolean).join(' \u2014 ')),
       peopleLine(it),
-      h('div', { class: 'card-links' }, ext(it.url, 'Abstract'), ext(it.sessionUrl, 'Session'), itemIcs(it)));
+      itemLinks(it, 'card-links'));
   }
 
   function renderGrid(items, st) {
@@ -503,7 +512,7 @@
     const byFmt = F().filter(M.items, st, { ignoreFmt: true });
     const byTheme = F().filter(M.items, st, { ignoreTheme: true });
     const dayRows = M.days.map((d) => ({ label: SFN.fmtDay(d, 'short'), n: byDay.filter((i) => i.date === d).length, sel: st.days.includes(d), onclick: () => F().toggle('days', d) }));
-    const fmtRows = [['poster', 'Poster'], ['talk', 'Talk'], ['role', 'Roles']].map(([id, label]) => ({ label, n: byFmt.filter((i) => i.group === id).length, sel: st.fmts.includes(id), onclick: () => F().toggle('fmts', id) }));
+    const fmtRows = [['poster', 'Poster'], ['talk', 'Talk'], ['role', 'Roles'], ['event', 'Events']].map(([id, label]) => ({ label, n: byFmt.filter((i) => i.group === id).length, sel: st.fmts.includes(id), onclick: () => F().toggle('fmts', id) }));
     const themeRows = M.themeLetters.map((l) => ({ label: 'Theme ' + l, title: themeLabel(l), n: byTheme.filter((i) => i.themeLetters.includes(l)).length, sel: st.themes.includes(l), onclick: () => F().toggle('themes', l) }));
     return h('div', { class: 'bars' }, barCard('By day', dayRows), barCard('By format', fmtRows), themeRows.length ? barCard('By theme (items can have several)', themeRows) : null);
   }
@@ -555,7 +564,7 @@
     const body = h('tbody');
     rows.forEach((it) => {
       const open = view.expanded.has(it.id);
-      body.append(h('tr', { class: it.isDon ? 'don' : '' },
+      body.append(h('tr', { class: it.isDon ? 'don' : it.isEvent ? 'event' : '' },
         h('td', { class: 'when' }, SFN.fmtDay(it.date, 'short'), h('br'), SFN.fmtRange(it.start, it.end)),
         h('td', { class: 'num' }, it.number),
         h('td', null, h('div', { class: 'title' }, it.url ? h('a', { href: it.url, target: '_blank', rel: 'noopener' }, it.title) : it.title,
@@ -564,7 +573,7 @@
         h('td', null, sessionText(it)),
         h('td', null, whereText(it)),
         h('td', null, peopleLine(it)),
-        h('td', { class: 'links' }, ext(it.url, 'Abstract'), ext(it.sessionUrl, 'Session'), itemIcs(it))));
+        itemLinks(it, 'links', 'td')));
       if (open) body.append(detailRow(it));
     });
     if (!rows.length) body.append(h('tr', null, h('td', { colspan: COLUMNS.length, class: 'empty' }, 'No items match the current filters.')));

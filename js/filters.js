@@ -5,7 +5,7 @@
   const SFN = (window.SFN = window.SFN || {});
   const SCOPE_IDS = SFN.SCOPES.map((s) => s.id);
   const RANK = Object.fromEntries(SFN.SCOPES.map((s) => [s.id, s.rank]));
-  const FORMATS = ['poster', 'talk', 'role'];
+  const FORMATS = ['poster', 'talk', 'role', 'event'];
 
   const defaults = () => ({ scope: 'don', ctx: false, days: [], fmts: [], themes: [], q: '' });
   let state = defaults();

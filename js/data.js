@@ -180,22 +180,30 @@
       const sess = p.session || {};
       const sessMeta = sessionById.get(String(sess.id)) || {};
       const format = String(p.format || '').toLowerCase();
-      const isRole = Object.prototype.hasOwnProperty.call(ROLE_LABELS, format);
-      const group = format === 'poster' || p.is_poster ? 'poster' : isRole ? 'role' : 'talk';
-      const tier = Object.prototype.hasOwnProperty.call(TIER_BY_LINK, p.don_link) ? TIER_BY_LINK[p.don_link] : 2;
-      const start = p.start || '';
-      const tp = timeParts(start);
       const sessionTitle = sess.title || sessMeta.title || '';
       const sessionType = sess.type || sessMeta.type || '';
+      /* Department-hosted socials (e.g. the WashU Neuroscience Reception) often have a
+         non-WashU organizer, so the scraper under-tiers them; show them in every scope. */
+      const isEvent = (p.don_flags || []).includes('washu_named_session') ||
+        (/satellite|ancillary|networking/i.test(sessionType) && /washington univ|washu/i.test(sessionTitle));
+      const isRole = !isEvent && Object.prototype.hasOwnProperty.call(ROLE_LABELS, format);
+      const group = isEvent ? 'event' : format === 'poster' || p.is_poster ? 'poster' : isRole ? 'role' : 'talk';
+      const linkTier = Object.prototype.hasOwnProperty.call(TIER_BY_LINK, p.don_link) ? TIER_BY_LINK[p.don_link] : 2;
+      const tier = isEvent ? 0 : linkTier;
+      const start = p.start || '';
+      const tp = timeParts(start);
       const roleLabel = isRole ? ROLE_LABELS[format] : '';
 
       let title = (p.title || '').trim();
-      if (isRole && (!title || title.toLowerCase() === roleLabel.toLowerCase() || title.toLowerCase() === format)) {
+      if (isEvent) {
+        title = sessionTitle || title;
+      } else if (isRole && (!title || title.toLowerCase() === roleLabel.toLowerCase() || title.toLowerCase() === format)) {
         title = roleLabel + (sessionTitle ? ': ' + sessionTitle : '');
       }
 
       let kind;
-      if (isRole) kind = roleLabel;
+      if (isEvent) kind = /reception/i.test(sessionTitle) ? 'Reception' : 'WashU event';
+      else if (isRole) kind = roleLabel;
       else if (group === 'poster') kind = /late/i.test(p.activity || '') || /late/i.test(sessionType) ? 'Late-breaking poster' : 'Poster';
       else kind = sessionType && !/poster/i.test(sessionType) ? sessionType : 'Talk';
 
@@ -226,7 +234,8 @@
         roleLabel,
         scope: tier === 0 ? 'don' : tier === 1 ? 'neuro' : tier === 2 ? 'washu' : 'context',
         tier,
-        isDon: tier === 0,
+        isDon: linkTier === 0 && !isEvent,
+        isEvent,
         start,
         end: p.end || '',
         startMs: Date.parse(start) || 0,
@@ -248,7 +257,7 @@
         themeLetters,
         keywords,
         allAuthors,
-        abstract: p.abstract || ''
+        abstract: p.abstract || (isEvent ? sessMeta.description || '' : '')
       };
       it.haystack = [
         it.title, it.number, it.presenter, it.sessionTitle, it.sessionNumber, it.room, it.kind,
