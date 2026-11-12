@@ -159,16 +159,93 @@
     );
   }
 
-  function initMetricsToggle() {
-    const btn = ui.metricsBtn;
-    const panel = ui.metricsPanel;
+  const SHARE_URL = 'https://neurotech-hub.github.io/Neuroscience2026/';
+
+  function makeQrSvg(text) {
+    if (typeof qrcode !== 'function') return h('p', { class: 'panel-note' }, 'QR code unavailable.');
+    const qr = qrcode(0, 'M');
+    qr.addData(text);
+    qr.make();
+    const wrap = document.createElement('div');
+    wrap.innerHTML = qr.createSvgTag(5, 0);
+    const svg = wrap.firstElementChild;
+    if (svg) {
+      const w = svg.getAttribute('width') || String(qr.getModuleCount());
+      const h = svg.getAttribute('height') || w;
+      svg.setAttribute('viewBox', '0 0 ' + w + ' ' + h);
+      svg.removeAttribute('width');
+      svg.removeAttribute('height');
+      svg.setAttribute('role', 'img');
+      svg.setAttribute('aria-label', 'QR code for ' + text);
+    }
+    return svg || h('p', { class: 'panel-note' }, 'QR code unavailable.');
+  }
+
+  function renderShare() {
+    clear(ui.sharePanel);
+    const input = h('input', {
+      type: 'text', readonly: true, value: SHARE_URL, 'aria-label': 'Site link',
+      onclick: (e) => e.target.select()
+    });
+    const copyBtn = h('button', { type: 'button', class: 'btn solid' }, 'Copy');
+    const status = h('p', { class: 'metrics-foot', 'aria-live': 'polite' });
+    const setStatus = (msg) => { status.textContent = msg || ''; };
+    copyBtn.addEventListener('click', async () => {
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) await navigator.clipboard.writeText(SHARE_URL);
+        else { input.focus(); input.select(); document.execCommand('copy'); }
+        copyBtn.textContent = 'Copied';
+        setStatus('Link copied to clipboard.');
+        setTimeout(() => { copyBtn.textContent = 'Copy'; }, 1600);
+      } catch (err) {
+        input.focus();
+        input.select();
+        setStatus('Select the link and copy it manually.');
+      }
+    });
+    ui.sharePanel.append(
+      h('h2', null, 'Share this site'),
+      h('div', { class: 'share-copy' }, input, copyBtn),
+      h('div', { class: 'share-qr' }, makeQrSvg(SHARE_URL), h('p', null, 'Scan to open on a phone')),
+      status
+    );
+  }
+
+  function bindHeroPanel(btn, panel, closeOthers) {
     const setOpen = (open) => {
       panel.hidden = !open;
       btn.setAttribute('aria-expanded', String(open));
+      if (open) closeOthers();
     };
-    btn.addEventListener('click', (e) => { e.stopPropagation(); setOpen(panel.hidden); });
-    document.addEventListener('click', (e) => { if (!panel.hidden && !panel.contains(e.target)) setOpen(false); });
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !panel.hidden) { setOpen(false); btn.focus(); } });
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      setOpen(panel.hidden);
+    });
+    return { setOpen, btn, panel };
+  }
+
+  function initHeroPanels() {
+    const closeAll = () => {
+      [ui.metricsBtn, ui.shareBtn].forEach((b) => b && b.setAttribute('aria-expanded', 'false'));
+      [ui.metricsPanel, ui.sharePanel].forEach((p) => { if (p) p.hidden = true; });
+    };
+    const metrics = bindHeroPanel(ui.metricsBtn, ui.metricsPanel, () => {
+      ui.sharePanel.hidden = true;
+      ui.shareBtn.setAttribute('aria-expanded', 'false');
+    });
+    const share = bindHeroPanel(ui.shareBtn, ui.sharePanel, () => {
+      ui.metricsPanel.hidden = true;
+      ui.metricsBtn.setAttribute('aria-expanded', 'false');
+    });
+    document.addEventListener('click', (e) => {
+      if (!ui.metricsPanel.hidden && !ui.metricsPanel.contains(e.target) && e.target !== ui.metricsBtn && !ui.metricsBtn.contains(e.target)) metrics.setOpen(false);
+      if (!ui.sharePanel.hidden && !ui.sharePanel.contains(e.target) && e.target !== ui.shareBtn && !ui.shareBtn.contains(e.target)) share.setOpen(false);
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Escape') return;
+      if (!ui.sharePanel.hidden) { share.setOpen(false); ui.shareBtn.focus(); }
+      else if (!ui.metricsPanel.hidden) { metrics.setOpen(false); ui.metricsBtn.focus(); }
+    });
   }
 
   function renderFooter() {
@@ -185,7 +262,7 @@
     ui.themeChips = {};
 
     ui.search = h('input', {
-      class: 'search', type: 'search', placeholder: 'Search title, author, keyword, session, room\u2026', 'aria-label': 'Search',
+      class: 'search', type: 'search', placeholder: 'Search\u2026', 'aria-label': 'Search',
       value: st.q
     });
     let timer;
@@ -624,6 +701,8 @@
     ui.heroMeta = document.getElementById('hero-meta');
     ui.metricsBtn = document.getElementById('metrics-btn');
     ui.metricsPanel = document.getElementById('metrics-panel');
+    ui.shareBtn = document.getElementById('share-btn');
+    ui.sharePanel = document.getElementById('share-panel');
     ui.filterbar = document.getElementById('filterbar');
     ui.footUpdated = document.getElementById('foot-updated');
     ui.nextBody = document.getElementById('next-body');
@@ -634,7 +713,8 @@
 
     renderHeroMeta();
     renderMetrics();
-    initMetricsToggle();
+    renderShare();
+    initHeroPanels();
     renderFooter();
     buildFilterBar();
     // Let in-page jumps clear the sticky filter bar (it is static on narrow screens).
