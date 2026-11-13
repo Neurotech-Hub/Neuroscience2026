@@ -60,6 +60,8 @@ Optional: `department`, `is_DoN` (boolean; puts the person in the "DoN faculty" 
 
 A person is also credited with any item where their `atlas_id` appears in `washu_authors`. Only people with at least one item are listed as presenting.
 
+Faculty missing from the Atlas export can be seeded in `js/data.js` (`PERSON_SEEDS` and `AUTHOR_ALIASES`). Local ids use the `ATL-LOCAL-` prefix (for example Matt Gaidica → `ATL-LOCAL-000001` matched from `M. GAIDICA`).
+
 ## Things that must stay stable
 
 - `id` values must be unique strings and must not change between runs for the same item.

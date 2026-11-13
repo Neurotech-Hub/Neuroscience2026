@@ -36,6 +36,29 @@
     'ATL-000265' // Geoffrey Goodhill
   ]);
 
+  /* People missing from the Atlas export entirely. Merged into people_index at load
+     time so a harvest refresh does not permanently drop them from the PI list. */
+  const PERSON_SEEDS = [
+    {
+      atlas_id: 'ATL-LOCAL-000001',
+      name: 'Matt Gaidica',
+      full_name_as_listed: 'Matt Gaidica, PhD',
+      department: 'Neuroscience',
+      is_DoN: true,
+      orcid: null,
+      lab_website: null,
+      presentation_ids: ['26641'],
+      n_presentations: 1,
+      queries: ['"Matt Gaidica"', '"Matthew Gaidica"', '"M. Gaidica"']
+    }
+  ];
+
+  /* Map abbreviated abstractsonline author names onto seeded / override roster ids
+     when the harvest left atlas_id null. */
+  const AUTHOR_ALIASES = [
+    { atlasId: 'ATL-LOCAL-000001', match: /^(M\.?\s*)?GAIDICA$/i }
+  ];
+
   const ROLE_LABELS = {
     'chair': 'Chair',
     'co chair': 'Co-chair',
@@ -170,9 +193,26 @@
     return list;
   }
 
+  function resolveAuthorPerson(a, rosterByAtlas) {
+    let atlasId = a.atlas_id || null;
+    let person = atlasId ? rosterByAtlas.get(atlasId) : null;
+    if (!person) {
+      const alias = AUTHOR_ALIASES.find((x) => x.match.test(String(a.name || '').trim()));
+      if (alias) {
+        atlasId = alias.atlasId;
+        person = rosterByAtlas.get(atlasId) || null;
+      }
+    }
+    return { atlasId, person };
+  }
+
   function normalize(rawPres, rawSessions, rawPeople, rawStats) {
+    const peopleIn = Array.isArray(rawPeople) ? rawPeople.slice() : [];
+    const have = new Set(peopleIn.map((p) => p && p.atlas_id).filter(Boolean));
+    PERSON_SEEDS.forEach((seed) => { if (seed.atlas_id && !have.has(seed.atlas_id)) peopleIn.push(seed); });
+
     const rosterByAtlas = new Map();
-    (rawPeople || []).forEach((p) => p && p.atlas_id && rosterByAtlas.set(p.atlas_id, p));
+    peopleIn.forEach((p) => p && p.atlas_id && rosterByAtlas.set(p.atlas_id, p));
     const sessionById = new Map();
     (rawSessions || []).forEach((s) => s && sessionById.set(String(s.id), s));
 
@@ -209,12 +249,14 @@
 
       const presenting = new Set((p.authors || []).filter((a) => a && a.presenting).map((a) => a.name));
       const washu = (p.washu_authors || []).map((a) => {
-        const person = a.atlas_id ? rosterByAtlas.get(a.atlas_id) : null;
+        const resolved = resolveAuthorPerson(a, rosterByAtlas);
+        const person = resolved.person;
+        const atlasId = resolved.atlasId;
         return {
           raw: a.name,
           name: prettyName(a.name, person),
-          atlasId: a.atlas_id || null,
-          isDon: !!(a.is_don_roster || DON_OVERRIDES.has(a.atlas_id) || (person && (person.is_DoN || DON_OVERRIDES.has(person.atlas_id)))),
+          atlasId,
+          isDon: !!(a.is_don_roster || DON_OVERRIDES.has(atlasId) || (person && (person.is_DoN || DON_OVERRIDES.has(person.atlas_id)))),
           isNeuro: !!a.dept_neuroscience,
           presenting: presenting.has(a.name)
         };
@@ -270,7 +312,7 @@
     items.sort((a, b) => a.startMs - b.startMs || a.endMs - b.endMs || a.number.localeCompare(b.number, undefined, { numeric: true }));
     const byId = new Map(items.map((i) => [i.id, i]));
 
-    const people = buildPeople(rawPeople, byId, items);
+    const people = buildPeople(peopleIn, byId, items);
     const presenting = people.filter((p) => p.items.length > 0);
     presenting.sort((a, b) => lastName(a.name).localeCompare(lastName(b.name)));
     const notPresenting = people.filter((p) => p.isDon && p.items.length === 0).sort((a, b) => lastName(a.name).localeCompare(lastName(b.name)));

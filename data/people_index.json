@@ -49,6 +49,25 @@
   "n_presentations": 0
  },
  {
+  "atlas_id": "ATL-LOCAL-000001",
+  "name": "Matt Gaidica",
+  "full_name_as_listed": "Matt Gaidica, PhD",
+  "department": "Neuroscience",
+  "is_DoN": true,
+  "orcid": null,
+  "lab_website": null,
+  "queries": [
+   "\"Matt Gaidica\"",
+   "\"Matthew Gaidica\"",
+   "\"M. Gaidica\""
+  ],
+  "name_search_hits_total": 0,
+  "presentation_ids": [
+   "26641"
+  ],
+  "n_presentations": 1
+ },
+ {
   "atlas_id": "ATL-000128",
   "name": "Peter Bayguinov",
   "full_name_as_listed": "Peter Bayguinov, PhD",
